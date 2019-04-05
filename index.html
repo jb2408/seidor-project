@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Website fot the interview in Seidor">
+    <meta name="author" content="Justyna Biel">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.1.10/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Seidor - test website</title>
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="top-text">
+                    <p>ENVIO ESTANDAR GRATIS A PARTIR DE 100E</p>
+                </div>
+                <div class="top-link">
+                    <p>Mi cuenta</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default" id="nav-menu">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">SEIDOR</a>
+            </div>
+            <div class="main-menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">NOVEDADES</a></li>
+                    <li class="dropdown mega-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA ELLA<span class="caret"></span></a>
+                        <ul class="dropdown-menu mega-dropdown-menu">
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header">Joyeria</li>
+                                    <li><a href="#">Pulseras</a></li>
+                                    <li><a href="#">Pendientes</a></li>
+                                    <li><a href="#">Collares</a></li>
+                                    <li><a href="#">Gargantillas</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header">Bolsos</li>
+                                    <li><a href="#">Primavera - Verano</a></li>
+                                    <li><a href="#">Bandoleras</a></li>
+                                    <li><a href="#">Bolsos de mano</a></li>
+                                    <li><a href="#">Bolsos medianos</a></li>
+                                    <li><a href="#">Bolsos grandes</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header">Accesorios</li>
+                                    <li><a href="#">Billeteros y monederos</a></li>
+                                    <li><a href="#">Bufandas y chales</a></li>
+                                    <li><a href="#">Llaveros</a></li>
+                                    <li><a href="#">Gafas de sol</a></li>
+                                    <li><a href="#">Paraguas</a></li>
+                                    <li><a href="#">Oficina</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-1">
+                                <ul>
+                                    <li class="dropdown-header">Atelier</li>
+                                    <li><a href="#">Joyeria</a></li>
+                                    <li><a href="#">Relojes</a></li>
+                                    <li><a href="#">Bolsos</a></li>
+                                    <li><a href="#">Accesorios</a></li>
+                                    <li><a href="#">Textil</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-1">
+                                <ul>
+                                    <li class="dropdown-header">Outlet</li>
+                                    <li><a href="#">Joyeria</a></li>
+                                    <li><a href="#">Relojes</a></li>
+                                    <li><a href="#">Bolsos</a></li>
+                                    <li><a href="#">Accesorios</a></li>
+                                    <li><a href="#">Textil</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-4">
+                                <ul>
+                                    <li id="dropdown-img"><img src="img/megamenu_ring.jpg" align="center" style="width:80%"></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PARA EL</a></li>
+                    <li><a href="#">KIDS &amp; BABY</a></li>
+                    <li><a href="#">INSPIRATE</a></li>
+                    <li><a href="#">SOBRE SEIDOR</a></li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav" id="right-icons">
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+                <li><a href="#"><i class="far fa-heart"></i></a></li>
+                <li><button class="cart-btn" data-toggle="modal" data-target="#cartModal"><i class="fas fa-shopping-bag"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main" class="container-fluid">
+        <!---------carousel 1------->
+        <div class="carousel1">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="img/carousel_1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/carousel_1.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/carousel_1.jpg" style="width:100%">
+                </div>
+                <div class="dots" style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <!------- see more ------->
+        <div class="container" id="see-more-part">
+            <div class="col-sm-8">
+                <img src="img/img_1_1.jpg">
+            </div>
+            <div class="col-sm-4" id="ver-mas-text">
+                <h1>SEIDOR TOP</h1>
+                <h2 id="lorem-ipsum">Lorem Ipsum Dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel erisque enim ligula venenatis dolor.<span id="dots">...</span><span id="more"> Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                <div id="button-id">
+                    <button onclick="seeMoreFunction()" id="myBtn">Ver mas +</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!---------carousel 2------->
+        <br>
+        <div class="carousel2">
+            <h1 align='center'>NOVEDADES</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="carousel-caption-under">
+                            <img src="img/carousel_2_1.jpg">
+                            <h6>Comprar ahora ></h6>
+                        </div>
+                        <div class="carousel-caption-under">
+                            <img src="img/carousel_2_2.jpg">
+                            <h6>Comprar ahora ></h6>
+                        </div>
+                        <div class="carousel-caption-under">
+                            <img src="img/carousel_2_3.jpg">
+                            <h6>Comprar ahora ></h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-caption-under">
+                            <img src="img/carousel_2_1.jpg">
+                            <h6>Comprar ahora ></h6>
+                        </div>
+                        <div class="carousel-caption-under">
+                            <img src="img/carousel_2_2.jpg">
+                            <h6>Comprar ahora ></h6>
+                        </div>
+                        <div class="carousel-caption-under">
+                            <img src="img/carousel_2_3.jpg">
+                            <h6>Comprar ahora ></h6>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="carousel-caption-under">
+                            <img src="img/carousel_2_1.jpg">
+                            <h6>Comprar ahora ></h6>
+                        </div>
+                        <div class="carousel-caption-under">
+                            <img src="img/carousel_2_2.jpg">
+                            <h6>Comprar ahora ></h6>
+                        </div>
+                        <div class="carousel-caption-under">
+                            <img src="img/carousel_2_3.jpg">
+                            <h6>Comprar ahora ></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+
+            <!---------------jquery carousel 3-------------->
+            <!--          <div class="carousel3">
+                <div class="slide">
+                    <ul>
+                        <li>
+                            <div class="slide-all">
+                                <div class="slide-left" data-bg="img/carousel_3_1.jpg">
+                                </div>
+                                <div class="slide-right">
+                                    <div class="slide-right-small">
+                                        <img src="img/carousel_3_2.jpg">
+                                    </div>
+                                    <div class="slide-right-small">
+                                        <img src="img/carousel_3_3.jpg">
+                                    </div>
+                                    <div class="slide-right-small">
+                                        <img src="img/carousel_3_4.jpg">
+                                    </div>
+                                    <div class="slide-right-small">
+                                        <img src="img/carousel_3_5.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+-->
+            <br>
+
+            <!-------------Modal---------------->
+            <div id="app">
+                <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel" align="center">Bolsa ({{cartItems.length}})</h4>
+                            </div>
+                            <div class="modal-body">
+                                <shopping-cart inline-template :items="cartItems">
+                                    <div>
+                                        <table class="table table-cart">
+                                            <tr v-for="(item, index) in items">
+                                                <td rowspan="3"><img class="img-responsive" :src="item.image" alt=""></td>
+                                                <td colspan="3">{{item.title}}</td>
+                                            </tr>
+                                            <tr v-for="(item, index) in items">
+                                                <td rowspan="2">{{item.description}}</td>
+                                                <td rowspan="2"><input v-model="item.qty" class="form-control input-qty" type="number"></td>
+                                                <td class="text-right"><s>€{{item.price_normal}}</s></td>
+                                            </tr>
+                                            <tr v-for="(item, index) in items">
+                                                <td class="text-right">€{{item.price}}</td>
+                                            </tr>
+
+                                            <tr v-show="items.length === 0">
+                                                <td colspan="4" class="text-center">El carrito de compra está vacío</td>
+                                            </tr>
+                                            <tr v-show="items.length > 0">
+                                                <td colspan="2" class="cart-total">Total</td>
+                                                <td colspan="2" class="cart-total">€{{Total}}</td>
+                                            </tr>
+                                            <tr v-show="items.length > 0" id="congratulations">
+                                                <td colspan="4">ENHORABUENA! GASTOS DE ENVIO GRATIS</td>
+                                            </tr>
+                                            <tr v-show="items.length > 0">
+                                                <td colspan="4"><button id="black">PASAR POR CAJA</button></td>
+                                            </tr>
+                                            <tr v-show="items.length > 0">
+                                                <td colspan="4"><button id="white">IR A LA BOLSA</button></td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+                                </shopping-cart>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 text-center" v-for="item in items">
+                            <img class="img-responsive" :src="item.image" alt="">
+                            <h5>{{ item.title }}</h5>
+                            <h6>€{{ item.price_normal}}</h6>
+                            <p class="text-center"><input v-model="item.qty" type="number" class="form-control" placeholder="Qty" min="1" /></p>
+
+                            <button @click="addToCart(item)" class="btn btn-sm btn-primary">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+    <!------- footer ------->
+
+    <footer id="footer-Section">
+        <div class="footer-top-layout">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-center">
+                        <h4>SEIDOR</h4>
+                        <p>Lorem ipsum dolor</p>
+                        <div class="footer-newsletter">
+                            <form class="signUpNewsletter" action="" method="get">
+                                <input name="" class="gt-email form-control" placeholder="Introduce tu mail" type="text">
+                            </form>
+                        </div>
+                    </div>
+                    <div class=" col-lg-12">
+                        <div class="col-sm-3">
+                            <div class="footer-col-item">
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum</p>
+                            </div>
+
+                            <div class="footer-col-item">
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6" id="center-social-media">
+                            <div class="socialMedia-footer">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <p>Pais: <select id="countries"></select></p>
+                            <p>Idioma: <select id="languages"></select></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-layout">
+            <div class="copyright-tag">©Seidor</div>
+        </div>
+    </footer>
+
+
+
+
+    <!--for shopping cart popup -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        //----------countries-------------
+        $(document).ready(function() {
+            var myCollectionCountries = {
+                'ES': 'Espana',
+                'PL': 'Polska',
+                'ENG': 'England'
+            };
+            var myCollectionLanguages = {
+                'ES': 'Espanol',
+                'PL': 'Polski',
+                'ENG': 'English'
+            };
+            loadDropDownListCountries(myCollectionCountries);
+            loadDropDownListLanguages(myCollectionLanguages);
+        });
+
+        function loadDropDownListCountries(collection) {
+            $.each(collection, function(index, value) {
+                var listItem = $("<option></option>").val(index).html(value);
+                $("#countries").append(listItem);
+            });
+        }
+
+        function loadDropDownListLanguages(collection) {
+            $.each(collection, function(index, value) {
+                var listItem = $("<option></option>").val(index).html(value);
+                $("#languages").append(listItem);
+            });
+        }
+
+
+        //-------------carousel------------------
+        $(function() {
+            $('.slide').slide({
+                'slideSpeed': 3000,
+                'isShowArrow': true,
+                'dotsEvent': 'mouseenter',
+                'isLoadAllImgs': true
+            });
+        });
+
+
+        //-------------carousel------------------
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+
+
+
+        //------------MEGA MENU----------------
+        $(document).ready(function() {
+            $(".dropdown").hover(
+                function() {
+                    $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
+                    $(this).toggleClass('open');
+                },
+                function() {
+                    $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp("400");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+
+
+        //-------------shopping cart------------------
+        const products = [{
+            id: 1,
+            title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            price: 200.00,
+            price_normal: 300.00,
+            qty: 1,
+            image: 'img/cart_ring_2.jpg',
+            description: 'Talla: 12, Color: rosa, Grabado: My love, my life'
+        }, ];
+
+        Vue.component('shopping-cart', {
+            props: ['items'],
+
+            computed: {
+                Total: function() {
+                    var total = 0;
+                    this.items.forEach(item => {
+                        total += (item.price * item.qty);
+                    });
+                    return total;
+                }
+            },
+
+            methods: {
+                removeItem(index) {
+                    this.items.splice(index, 1)
+                }
+            }
+        })
+
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                cartItems: [],
+                items: products
+            },
+
+            methods: {
+                addToCart(itemToAdd) {
+                    var found = false;
+
+                    // Check if the item was already added to cart
+                    // If so them add it to the qty field
+                    this.cartItems.forEach(item => {
+                        if (item.id === itemToAdd.id) {
+                            found = true;
+                            item.qty += itemToAdd.qty;
+                        }
+                    });
+
+                    if (found === false) {
+                        this.cartItems.push(Vue.util.extend({}, itemToAdd));
+                    }
+
+                    itemToAdd.qty = 1;
+                }
+            }
+        })
+
+        //--------------see more------------------
+        function seeMoreFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Ver mas +";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Ver menos -";
+                moreText.style.display = "inline";
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>
